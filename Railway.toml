@@ -1,0 +1,8 @@
+[build]
+  command = "pip install -r requirements.txt && python app/routes/download_models.py"
+
+[start]
+  command = "gunicorn run:app"
+
+[deploy]
+  pythonVersion = "3.12"
