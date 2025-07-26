@@ -1,0 +1,12 @@
+app/models/similarity.pkl
+app/models/movie_dict.pkl
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+instance/
+.env
+.DS_Store
+
